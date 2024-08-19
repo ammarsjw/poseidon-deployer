@@ -1,0 +1,22 @@
+{
+    "name": "poseidon-deployer",
+    "version": "0.0.1",
+    "type": "module",
+    "description": "Deployment environment for Circomlib Poseidon libraries",
+    "scripts": {
+        "deploy": "node scripts/deploy-poseidon-contract.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ammarsjw/poseidon-deployer.git"
+    },
+    "author": "Ammar Salahuddin",
+    "license": "GPL-3.0",
+    "devDependencies": {
+        "dotenv": "^16.3.1",
+        "envfile": "^6.17.0",
+        "ethers": "^5.5.1",
+        "ffjavascript": "^0.3.0",
+        "fs": "^0.0.1-security"
+    }
+}

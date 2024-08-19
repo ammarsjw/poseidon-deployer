@@ -1,0 +1,14 @@
+.DS_Store
+
+.env
+
+# Compiler files
+cache
+
+# NPM
+node_modules
+package-lock.json
+.npm
+
+# Docs
+docs
