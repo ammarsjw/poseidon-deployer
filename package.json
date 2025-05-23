@@ -1,10 +1,10 @@
 {
     "name": "poseidon-deployer",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "type": "module",
     "description": "Deployment environment for Circomlib Poseidon libraries",
     "scripts": {
-        "deploy": "node scripts/deploy-poseidon-contract.js"
+        "start": "node scripts/deploy-poseidon-contract.js"
     },
     "repository": {
         "type": "git",
